@@ -108,10 +108,7 @@
 	            }
 	          }
 
-	          var object3D = this.el.object3D.children[0];
-	        //   var object3D = this.el.object3D.children[0];
-			  console.log(this);
-			  console.log(object3D);
+	          var object3D = this.el.object3D.children[0];	        
 
 	          // In A-Frame 0.2.0, objects are all groups so sphere is the first children
 	          // Check if it's a sphere w/ video material, and if so

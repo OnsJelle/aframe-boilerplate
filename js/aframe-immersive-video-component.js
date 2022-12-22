@@ -110,8 +110,10 @@ AFRAME.registerComponent('immersive-video', {
                 self.video.setAttribute("src", self.data.source);
                 self.video.setAttribute("id", self.video_id);
                 self.video.setAttribute("loop", true);
-                self.video.setAttribute("autoplay", "true");
+                self.video.setAttribute("autoplay", "false");
                 self.video.setAttribute("crossorigin", "anonymous");
+
+                self.video.setAttribute("muted", "muted");
 
                 assets.appendChild(self.video);
 
