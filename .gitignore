@@ -39,3 +39,10 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# mkcert certificate keys
+*.pem
+
+# Video and photo files (too large)
+/Pictures
+/Video
